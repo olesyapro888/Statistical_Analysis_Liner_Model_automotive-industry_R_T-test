@@ -1,15 +1,15 @@
 # MechaCar_Statistical_Analysis. Project 15 of the UofT.
 ## `-Contents-`	
 	
-- [Overview of the MechaCar Analysis](#overview-of-the-MechaCar-Analysis)	
+- [Overview of the MechaCar Statistical Analysis](#overview-of-the-MechaCar-Analysis)	
 - [Resources](#resources)	
-- [The MechaCar Analysis Result](#The-MechaCar-Analysis-Result)
+- [The MechaCar Statistical Analysis Result](#The-MechaCar-Analysis-Result)
   - [Linear Regression to Predict MPG](#Linear-Regression-to-Predict-MPG)	
   - [Summary Statistics on Suspension Coils](#Summary-Statistics-on-Suspension-Coils)
   - [T-Test on Suspension Coils](#T-Test-on-Suspension-Coils)
   - [Design a Study Comparing the MechaCar to the Competition](#Design-a-Study-Comparing-the-MechaCar-to-the-Competition)
 - [The MechaCar MechaCar Analysis Summary](#Bikesharing-Analysis-Summary)	
-## `Overview of the MechaCar Analysis`	
+## `Overview of the MechaCar Statistical Analysis`	
 	
 The purpose for the MechaCAr project is to to review the production data for insights that may help the manufacturing teams:
   - Linear Regression to Predict MPG. Perform multiple linear regression analysis to identify which variables in the dataset predict the mpg of MechaCar prototypes.
@@ -19,7 +19,7 @@ The purpose for the MechaCAr project is to to review the production data for ins
 
 ## `Resources`	
 The analysis is created using next software: R-Studio, .	
-## `The MechaCar Analysis Result`	
+## `The MechaCar Statistical Analysis Result`	
 ### `- Linear Regression to Predict MPG`	
 The result of that can be found in the [MechaCarChallenge](./MechaCarChallenge.R) file.	
 
@@ -36,6 +36,10 @@ The MechaCar Suspension_Coil.csv dataset contains the results from multiple prod
 - The suspension coil’s PSI continuous variable across all manufacturing lots
 - The following PSI metrics for each lot: mean, median, variance, and standard deviation
 
+write a short summary using screenshots from your total_summary and lot_summary dataframes, and address the following question:
+
+The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
+
 First 
 
 Next 
@@ -46,12 +50,16 @@ Additionally, a
 
 ### `- T-Test on Suspension Coils`	
 
-The created Story for the Final Presentation can be found in the following link:
+perform t-tests to determine if all manufacturing lots and each lot individually are statistically different from the population mean of 1,500 pounds per square inch
 
+
+ briefly summarize your interpretation and findings for the t-test results. Include screenshots of the t-test to support your summary
+
+scs1-4
 ### `- Design a Study Comparing the MechaCar to the Competition`	
 
 
-## `The MechaCar Analysis Summary`	
+## `The MechaCar Statistical Analysis Summary`	
 
 In the written summaries, we would like you to think critically about your analysis, not demonstrate mastery of automotive manufacturing.
 
