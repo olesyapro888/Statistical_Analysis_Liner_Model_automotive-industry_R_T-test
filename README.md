@@ -3,12 +3,11 @@
 	
 - [Overview of the MechaCar Statistical Analysis](#Overview-of-the-MechaCar-Statistical-Analysis)	
 - [Resources](#resources)	
-- [The MechaCar Statistical Analysis Result](#The-MechaCar-Analysis-Result)
-  - [Linear Regression to Predict MPG](#Linear-Regression-to-Predict-MPG)	
-  - [Summary Statistics on Suspension Coils](#Summary-Statistics-on-Suspension-Coils)
-  - [T-Test on Suspension Coils](#T-Test-on-Suspension-Coils)
-  - [Study Design: MechaCar vs Competition](#Study-Design:-MechaCar-vs-Competition)
-- [The MechaCar MechaCar Analysis Summary](#The-MechaCar-Statistical-Analysis-Summary)	
+- [The MechaCar Statistical Analysis Result](#The-MechaCar-Statistical-Analysis-Result)
+  - [Linear Regression to Predict MPG](#--Linear-Regression-to-Predict-MPG)	
+  - [Summary Statistics on Suspension Coils](#-Summary-Statistics-on-Suspension-Coils)
+  - [T-Test on Suspension Coils](#--T-Test-on-Suspension-Coils)
+  - [Study Design: MechaCar vs Competition](#--Study-Design:-MechaCar-vs-Competition)
 ## `Overview of the MechaCar Statistical Analysis`	
 	
 The purpose for the MechaCAr project is to to review the production data for insights that may help the manufacturing teams:
@@ -29,6 +28,13 @@ rite a short summary using a screenshot of the output from the linear regression
 Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
 Is the slope of the linear model considered to be zero? Why or why not?
 Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
+
+
+Pr(>|t|) > 0.05 Means there is no signifi
+
+Sc 1
+
+
 
 ### `- Summary Statistics on Suspension Coils`	
 
@@ -89,10 +95,8 @@ What is the null hypothesis or alternative hypothesis?
 What statistical test would you use to test the hypothesis? And why?
 What data is needed to run the statistical test?
 
-## `The MechaCar Statistical Analysis Summary`	
-
-In the written summaries, we would like you to think critically about your analysis, not demonstrate mastery of automotive manufacturing.
-
-The analysis provides a lot of summarizing. 
-But the main show following:
-- 
+The statistical study design has the following:
+A metric to be tested is mentioned (5 pt)
+A null hypothesis or an alternative hypothesis is described (5 pt)
+A statistical test is described to test the hypothesis (5 pt)
+The data for the statistical test is described (5 pt
