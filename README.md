@@ -5,9 +5,9 @@
 - [Resources](#resources)	
 - [The MechaCar Statistical Analysis Result](#The-MechaCar-Statistical-Analysis-Result)
   - [Linear Regression to Predict MPG](#--Linear-Regression-to-Predict-MPG)	
-  - [Summary Statistics on Suspension Coils](#-Summary-Statistics-on-Suspension-Coils)
+  - [Summary Statistics on Suspension Coils](#--Summary-Statistics-on-Suspension-Coils)
   - [T-Test on Suspension Coils](#--T-Test-on-Suspension-Coils)
-  - [Study Design: MechaCar vs Competition](#--Study-Design:-MechaCar-vs-Competition)
+  - [Study Design: MechaCar vs Competition](#--Study-Design-:-MechaCar-vs-Competition)
 ## `Overview of the MechaCar Statistical Analysis`	
 	
 The purpose for the MechaCAr project is to to review the production data for insights that may help the manufacturing teams:
@@ -34,6 +34,7 @@ Pr(>|t|) > 0.05 Means there is no signifi
 
 Sc 1
 
+![image](https://user-images.githubusercontent.com/68247343/136716263-418a7089-9589-40c1-a756-6bf7371808cd.png)
 
 
 ### `- Summary Statistics on Suspension Coils`	
@@ -41,10 +42,12 @@ Sc 1
 The MechaCar Suspension_Coil.csv dataset contains the results from multiple production lots. In this dataset, the weight capacities of multiple suspension coils were tested to determine if the manufacturing process is consistent across production lots.. Create a summary statistics table to show:
 
 - The suspension coil’s PSI continuous variable across all manufacturing lots
+
 ![image](https://user-images.githubusercontent.com/68247343/136715702-8d0f65d7-8e4b-4f0a-b3a4-808b797e5c4c.png)
 
 
 - The following PSI metrics for each lot: mean, median, variance, and standard deviation
+
 ![image](https://user-images.githubusercontent.com/68247343/136715703-693d70fc-ddba-49c4-82f4-47737787cf68.png)
 
 
@@ -65,7 +68,7 @@ Additionally, a
 perform t-tests to determine if all manufacturing lots and each lot individually are statistically different from the population mean of 1,500 pounds per square inch
 
 
- briefly summarize your interpretation and findings for the t-test results. Include screenshots of the t-test to support your summary
+briefly summarize your interpretation and findings for the t-test results. Include screenshots of the t-test to support your summary
 ![image](https://user-images.githubusercontent.com/68247343/136715709-59b7fcbb-103a-428f-a92c-a07a1a7815f7.png)
 
 
