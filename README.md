@@ -1,14 +1,14 @@
 # MechaCar_Statistical_Analysis. Project 15 of the UofT.
 ## `-Contents-`	
 	
-- [Overview of the MechaCar Statistical Analysis](#overview-of-the-MechaCar-Analysis)	
+- [Overview of the MechaCar Statistical Analysis](#Overview-of-the-MechaCar-Statistical-Analysis)	
 - [Resources](#resources)	
 - [The MechaCar Statistical Analysis Result](#The-MechaCar-Analysis-Result)
   - [Linear Regression to Predict MPG](#Linear-Regression-to-Predict-MPG)	
   - [Summary Statistics on Suspension Coils](#Summary-Statistics-on-Suspension-Coils)
   - [T-Test on Suspension Coils](#T-Test-on-Suspension-Coils)
   - [Study Design: MechaCar vs Competition](#Study-Design:-MechaCar-vs-Competition)
-- [The MechaCar MechaCar Analysis Summary](#Bikesharing-Analysis-Summary)	
+- [The MechaCar MechaCar Analysis Summary](#The-MechaCar-Statistical-Analysis-Summary)	
 ## `Overview of the MechaCar Statistical Analysis`	
 	
 The purpose for the MechaCAr project is to to review the production data for insights that may help the manufacturing teams:
@@ -18,7 +18,8 @@ The purpose for the MechaCAr project is to to review the production data for ins
   - Design a Study Comparing the MechaCar to the Competition. Design a statistical study to compare vehicle performance of the MechaCar vehicles against vehicles from other manufacturers. 
 
 ## `Resources`	
-The analysis is created using next software: R-Studio, .	
+The analysis is created using next software: R-Studio 2.14.1, R version 4.1.1 -- "Kick Things".
+
 ## `The MechaCar Statistical Analysis Result`	
 ### `- Linear Regression to Predict MPG`	
 The result of that can be found in the [MechaCarChallenge](./MechaCarChallenge.R) file.	
@@ -34,7 +35,12 @@ Does this linear model predict mpg of MechaCar prototypes effectively? Why or wh
 The MechaCar Suspension_Coil.csv dataset contains the results from multiple production lots. In this dataset, the weight capacities of multiple suspension coils were tested to determine if the manufacturing process is consistent across production lots.. Create a summary statistics table to show:
 
 - The suspension coil’s PSI continuous variable across all manufacturing lots
+![image](https://user-images.githubusercontent.com/68247343/136715702-8d0f65d7-8e4b-4f0a-b3a4-808b797e5c4c.png)
+
+
 - The following PSI metrics for each lot: mean, median, variance, and standard deviation
+![image](https://user-images.githubusercontent.com/68247343/136715703-693d70fc-ddba-49c4-82f4-47737787cf68.png)
+
 
 write a short summary using screenshots from your total_summary and lot_summary dataframes, and address the following question:
 
@@ -54,8 +60,21 @@ perform t-tests to determine if all manufacturing lots and each lot individually
 
 
  briefly summarize your interpretation and findings for the t-test results. Include screenshots of the t-test to support your summary
+![image](https://user-images.githubusercontent.com/68247343/136715709-59b7fcbb-103a-428f-a92c-a07a1a7815f7.png)
 
-scs1-4
+
+lot1
+![image](https://user-images.githubusercontent.com/68247343/136715711-b2a5d4f5-48f0-429b-ae59-e5680cc3f856.png)
+
+
+lot2
+![image](https://user-images.githubusercontent.com/68247343/136715716-33d99185-76c1-49fa-b3a4-2c8ec7069c0c.png)
+
+
+lot3
+![image](https://user-images.githubusercontent.com/68247343/136715721-5cc74da0-c5e7-4a0f-a682-3c7f19079d75.png)
+
+
 ### `- Study Design: MechaCar vs Competition`	
 
 design a statistical study to compare performance of the MechaCar vehicles against performance of vehicles from other manufacturers
