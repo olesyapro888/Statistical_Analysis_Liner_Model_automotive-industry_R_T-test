@@ -20,86 +20,63 @@ The purpose for the MechaCAr project is to to review the production data for ins
 The analysis is created using next software: R-Studio 2.14.1, R version 4.1.1 -- "Kick Things".
 
 ## `The MechaCar Statistical Analysis Result`	
+The RScript result of MechaCar Statistical Analysis can be found in the [MechaCarChallenge](./MechaCarChallenge.R) file
 ### `- Linear Regression to Predict MPG`	
-The result of that can be found in the [MechaCarChallenge](./MechaCarChallenge.R) file.	
 
-rite a short summary using a screenshot of the output from the linear regression, and address the following questions:
-
-Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
-Is the slope of the linear model considered to be zero? Why or why not?
-Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
-
-
-Pr(>|t|) > 0.05 Means there is no signifi
-
-Sc 1
 
 ![image](https://user-images.githubusercontent.com/68247343/136716263-418a7089-9589-40c1-a756-6bf7371808cd.png)
 
+According to our results the variables: Intercept (5.08e-08), vehicle_length (2.60e-12), ground_clearance (5.21e-08) provide a non-random amount of variance to the mpg values in the dataset because of their pr(>|t|)< 0.05. So, they have significant impact on the mpg values.
+
+In addition, the pr(>|t|) of our linear regression analysis is 5.08 x 10-8, which is much smaller than our assumed significance level of 0.05%. Therefore, we can state that there is sufficient evidence to reject our null hypothesis, which means that the slope of our linear model is not zero.
+
+According to the calculated r-squared value
+
+No, this linear model does not predict mpg of MechaCar prototypes effectively. When an intercept is statistically significant, it means there are other variables and factors that contribute to the variation in calculating mpg that have not been included in our model.
+
+According to the calculated r-squared value as 0.7149 which means that roughly 71%. So, the linear model can be predicted. 
 
 ### `- Summary Statistics on Suspension Coils`	
 
-The MechaCar Suspension_Coil.csv dataset contains the results from multiple production lots. In this dataset, the weight capacities of multiple suspension coils were tested to determine if the manufacturing process is consistent across production lots.. Create a summary statistics table to show:
-
-- The suspension coil’s PSI continuous variable across all manufacturing lots
+- The total summary table shows below:
 
 ![image](https://user-images.githubusercontent.com/68247343/136715702-8d0f65d7-8e4b-4f0a-b3a4-808b797e5c4c.png)
 
-
-- The following PSI metrics for each lot: mean, median, variance, and standard deviation
+ - The lot_summary dataframe is following:
 
 ![image](https://user-images.githubusercontent.com/68247343/136715703-693d70fc-ddba-49c4-82f4-47737787cf68.png)
 
+Additionally, the design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. So, as the variance is around 62 that means the current manufacturing data meet this design specification for all manufacturing lots in total.
 
-write a short summary using screenshots from your total_summary and lot_summary dataframes, and address the following question:
-
-The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
-
-First 
-
-Next 
-
-Also, 
-
-Additionally, a
-
+But the variance of lot 3 is about 170 which means it does not meet the design specification. 
 ### `- T-Test on Suspension Coils`	
 
-perform t-tests to determine if all manufacturing lots and each lot individually are statistically different from the population mean of 1,500 pounds per square inch
+T-tests allows to determine if all manufacturing lots and each lot individually are statistically different from the population mean of 1,500 PSI.
 
+According to the calculated p-value of 0.06028 higher than 0.05 for all manufacturing lot. So, it is not right to reject the null hypothesis. The mean is 1498 which is close from the population mean.
 
-briefly summarize your interpretation and findings for the t-test results. Include screenshots of the t-test to support your summary
 ![image](https://user-images.githubusercontent.com/68247343/136715709-59b7fcbb-103a-428f-a92c-a07a1a7815f7.png)
 
+For the  manufacturing lot1, p-value of 1 higher than 0.05. So, it is not right to reject the null hypothesis. The mean is 1500 which is the same as the population mean.
 
-lot1
 ![image](https://user-images.githubusercontent.com/68247343/136715711-b2a5d4f5-48f0-429b-ae59-e5680cc3f856.png)
 
+For the  manufacturing lot2, p-value of 0.062 higher than 0.05. So, it is not right to reject the null hypothesis. The mean is 1500.02 which is close from the population mean.
 
-lot2
 ![image](https://user-images.githubusercontent.com/68247343/136715716-33d99185-76c1-49fa-b3a4-2c8ec7069c0c.png)
 
+For the  manufacturing lot2, p-value of 0.04168 is lower than 0.05. So, it is right to reject the null hypothesis. The mean is 1496.14 which is close from the population mean.
 
-lot3
 ![image](https://user-images.githubusercontent.com/68247343/136715721-5cc74da0-c5e7-4a0f-a682-3c7f19079d75.png)
 
 
 ### `- Study Design: MechaCar vs Competition`	
 
-design a statistical study to compare performance of the MechaCar vehicles against performance of vehicles from other manufacturers
+A statistical study to compare performance of the MechaCar vehicles against performance of vehicles from other manufacturers is bellow. Consumer would be interest in several metrics as cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.
 
-short description of a statistical study that can quantify how the MechaCar performs against the competition. 
+Null hypothesis as there is no difference between the metrics of MechaCar vs competition.
+Alternate hypothesis as there is a difference between the metrics of MechaCar vs competition.
 
-In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating
+To test the hypothesis should use T-test as if the p-value is less than the significance level, then the null hypothesis is rejected.
 
-n your description, address the following questions:
-What metric or metrics are you going to test?
-What is the null hypothesis or alternative hypothesis?
-What statistical test would you use to test the hypothesis? And why?
-What data is needed to run the statistical test?
-
-The statistical study design has the following:
-A metric to be tested is mentioned (5 pt)
-A null hypothesis or an alternative hypothesis is described (5 pt)
-A statistical test is described to test the hypothesis (5 pt)
-The data for the statistical test is described (5 pt
+To run the statistical test needs to use data as cost, city or highway fuel efficiency, horse power, maintenance cost, safety rating. 
