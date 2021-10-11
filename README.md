@@ -48,19 +48,19 @@ But the variance of lot 3 is about 170 which means it does not meet the design s
 
 T-tests allows to determine if all manufacturing lots and each lot individually are statistically different from the population mean of 1,500 PSI.
 
-According to the calculated p-value of 0.06028 higher than 0.05 for all manufacturing lot. So, it is not right to reject the null hypothesis. The mean is 1498 which is close from the population mean.
+According to the calculated p-value of 1 higher than 0.05 for all manufacturing lot. So, it is not right to reject the null hypothesis. The mean is 1498 which is close from the population mean.
 
 ![image](https://user-images.githubusercontent.com/68247343/136715709-59b7fcbb-103a-428f-a92c-a07a1a7815f7.png)
 
-For the  manufacturing lot1, p-value of 1 higher than 0.05. So, it is not right to reject the null hypothesis. The mean is 1500 which is the same as the population mean.
+For the  manufacturing lot1, p-value of 1.58 x 10-11 is lower than 0.05. So, it is right to reject the null hypothesis. The mean is 1500 which is the same as the population mean.
 
 ![image](https://user-images.githubusercontent.com/68247343/136715711-b2a5d4f5-48f0-429b-ae59-e5680cc3f856.png)
 
-For the  manufacturing lot2, p-value of 0.062 higher than 0.05. So, it is not right to reject the null hypothesis. The mean is 1500.02 which is close from the population mean.
+For the  manufacturing lot2, p-value of 0.006 is lower than 0.05. So, it is right to reject the null hypothesis. The mean is 1500.02 which is close from the population mean.
 
 ![image](https://user-images.githubusercontent.com/68247343/136715716-33d99185-76c1-49fa-b3a4-2c8ec7069c0c.png)
 
-For the  manufacturing lot2, p-value of 0.04168 is lower than 0.05. So, it is right to reject the null hypothesis. The mean is 1496.14 which is close from the population mean.
+For the  manufacturing lot2, p-value of 0.1589 is higher than 0.05. So, it is not right to reject the null hypothesis. The mean is 1496.14 which is close from the population mean.
 
 ![image](https://user-images.githubusercontent.com/68247343/136731523-09cdf315-170c-4f27-a3d0-3c1a7bd46658.png)
 
