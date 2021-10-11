@@ -62,8 +62,7 @@ For the  manufacturing lot2, p-value of 0.062 higher than 0.05. So, it is not ri
 
 For the  manufacturing lot2, p-value of 0.04168 is lower than 0.05. So, it is right to reject the null hypothesis. The mean is 1496.14 which is close from the population mean.
 
-![image](https://user-images.githubusercontent.com/68247343/136715721-5cc74da0-c5e7-4a0f-a682-3c7f19079d75.png)
-
+![image](https://user-images.githubusercontent.com/68247343/136731523-09cdf315-170c-4f27-a3d0-3c1a7bd46658.png)
 
 ### `- Study Design - MechaCar vs Competition`	
 
