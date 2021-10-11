@@ -29,10 +29,6 @@ According to our results the variables: Intercept (5.08e-08), vehicle_length (2.
 
 In addition, the pr(>|t|) of our linear regression analysis is 5.08 x 10-8, which is much smaller than our assumed significance level of 0.05%. Therefore, we can state that there is sufficient evidence to reject our null hypothesis, which means that the slope of our linear model is not zero.
 
-According to the calculated r-squared value
-
-No, this linear model does not predict mpg of MechaCar prototypes effectively. When an intercept is statistically significant, it means there are other variables and factors that contribute to the variation in calculating mpg that have not been included in our model.
-
 According to the calculated r-squared value as 0.7149 which means that roughly 71%. So, the linear model can be predicted. 
 
 ### `- Summary Statistics on Suspension Coils`	
