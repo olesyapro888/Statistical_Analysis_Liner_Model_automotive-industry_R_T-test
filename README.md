@@ -7,10 +7,10 @@
   - [Linear Regression to Predict MPG](#--Linear-Regression-to-Predict-MPG)	
   - [Summary Statistics on Suspension Coils](#--Summary-Statistics-on-Suspension-Coils)
   - [T-Test on Suspension Coils](#--T-Test-on-Suspension-Coils)
-  - [Study Design: MechaCar vs Competition](#--Study-Design-:-MechaCar-vs-Competition)
+  - [Study Design: MechaCar vs Competition](#--Study-Design-MechaCar-vs-Competition)
 ## `Overview of the MechaCar Statistical Analysis`	
 	
-The purpose for the MechaCAr project is to to review the production data for insights that may help the manufacturing teams:
+The purpose for the MechaCAr project is to review the production data for insights that may help the manufacturing teams:
   - Linear Regression to Predict MPG. Perform multiple linear regression analysis to identify which variables in the dataset predict the mpg of MechaCar prototypes.
   - Summary Statistics on Suspension Coils. Collect summary statistics on the pounds per square inch (PSI) of the suspension coils from the manufacturing lots
   - T-Test on Suspension Coils. Run t-tests to determine if the manufacturing lots are statistically different from the mean population
@@ -22,7 +22,6 @@ The analysis is created using next software: R-Studio 2.14.1, R version 4.1.1 --
 ## `The MechaCar Statistical Analysis Result`	
 The RScript result of MechaCar Statistical Analysis can be found in the [MechaCarChallenge](./MechaCarChallenge.R) file
 ### `- Linear Regression to Predict MPG`	
-
 
 ![image](https://user-images.githubusercontent.com/68247343/136716263-418a7089-9589-40c1-a756-6bf7371808cd.png)
 
@@ -70,7 +69,7 @@ For the  manufacturing lot2, p-value of 0.04168 is lower than 0.05. So, it is ri
 ![image](https://user-images.githubusercontent.com/68247343/136715721-5cc74da0-c5e7-4a0f-a682-3c7f19079d75.png)
 
 
-### `- Study Design: MechaCar vs Competition`	
+### `- Study Design - MechaCar vs Competition`	
 
 A statistical study to compare performance of the MechaCar vehicles against performance of vehicles from other manufacturers is bellow. Consumer would be interest in several metrics as cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.
 
