@@ -60,7 +60,7 @@ For the  manufacturing lot2, p-value of 0.006 is lower than 0.05. So, it is righ
 
 ![image](https://user-images.githubusercontent.com/68247343/136715716-33d99185-76c1-49fa-b3a4-2c8ec7069c0c.png)
 
-For the  manufacturing lot2, p-value of 0.1589 is higher than 0.05. So, it is not right to reject the null hypothesis. The mean is 1496.14 which is close from the population mean.
+For the  manufacturing lot3, p-value of 0.1589 is higher than 0.05. So, it is not right to reject the null hypothesis. The mean is 1496.14 which is close from the population mean.
 
 ![image](https://user-images.githubusercontent.com/68247343/136731523-09cdf315-170c-4f27-a3d0-3c1a7bd46658.png)
 
