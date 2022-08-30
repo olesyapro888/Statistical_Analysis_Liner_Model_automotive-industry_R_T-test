@@ -1,4 +1,4 @@
-# MechaCar_Statistical_Analysis. The project 15 of the University of Toronto.
+# Statistical analysis and linear model to predict the mpg (miles-per-gallon) of MechaCar prototypes (to identify ideal vehicle performance) using R, T-Test.
 
 ## `-Contents-`	
 	
@@ -13,9 +13,9 @@
 ## `Overview of the MechaCar Statistical Analysis`	
 	
 The purpose of the MechaCAr project is to review the production data for insights that may help the manufacturing teams:
-  - Linear Regression to Predict MPG. Perform multiple linear regression analysis to identify which variables in the dataset predict the mpg of MechaCar prototypes.
+  - Predict MPG using Linear Regression. Perform multiple linear regression analysis to identify which variables in the dataset predict the mpg of MechaCar prototypes.
   - Summary Statistics on Suspension Coils. Collect summary statistics on the pounds per square inch (PSI) of the suspension coils from the manufacturing lots
-  - T-Test on Suspension Coils. Run t-tests to determine if the manufacturing lots are statistically different from the mean population
+  - T-Test on Suspension Coils by runing T-Tests to determine if the manufacturing lots are statistically different from the mean population
   - Design a Study Comparing the MechaCar to the Competition. Design a statistical study to compare vehicle performance of the MechaCar vehicles against vehicles from other manufacturers. 
 
 ## `Resources`	
